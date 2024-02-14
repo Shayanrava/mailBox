@@ -1,0 +1,167 @@
+body {
+    background-image: linear-gradient(rgb(53, 103, 230), black);
+
+    height: 1000px;
+
+    background-repeat: no-repeat;
+
+    background-size: cover;
+}
+
+#divpar {
+    background-color: white;
+
+    height: 500px;
+
+    width: 500px;
+
+    position: relative;
+
+    left: 500px;
+
+    top: 100px;
+
+    border-radius: 5%;
+}
+
+#iconBox {
+
+    display: flex;
+
+    margin-left: 30px;
+
+}
+
+#caasify {
+
+    color: #0474bb;
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    font-size: 23px;
+}
+
+#line {
+    border-top: 2px solid gold;
+
+
+
+    color: rgb(5, 104, 176);
+
+
+
+    padding: 10px;
+
+    margin: 10px;
+}
+
+#links {
+
+    background-color: #e3f2fd;
+
+    width: 430px;
+
+    height: 100px;
+
+    margin-left: 35px;
+
+    display: flex;
+
+    border-radius: 2%;
+}
+
+#mail {
+
+    font-size: 9px;
+
+    margin-top: 17px;
+
+}
+
+#mailIcon {
+
+    color: rgb(13, 66, 226);
+
+    margin-top: 15px;
+
+    margin-left: 15px;
+
+    margin-right: 4px;
+}
+
+#pin {
+    color: rgb(13, 66, 226);
+
+    margin-top: 7px;
+
+    margin-left: 12px;
+}
+
+#pin_address {
+
+
+    font-size: 9px;
+
+    margin-left: 1px;
+
+
+    
+}
+
+#list1 {
+
+    font-size: 10px;
+
+
+    margin-left: 100px;
+}
+
+#list2 {
+
+
+    font-size: 10px;
+
+}
+
+#invision {
+
+    color: rgb(13, 66, 226);
+
+    margin-left: 14px;
+
+}
+
+#reddit {
+
+    color: rgb(255, 98, 0);
+
+}
+
+#twitter {
+
+    color: black;
+
+}
+
+#unsub {
+    position: absolute;
+
+    top: 45px;
+
+    left: 700px;
+
+    top: 620px;
+
+    color: white;
+
+    text-decoration: none;
+
+}
+
+li{
+    padding: 4px;  
+}
+
+h3{
+    color: rgb(4, 38, 111);
+}

@@ -3,214 +3,27 @@
 <html>
 
 <head>
+  <link rel="stylesheet" href="styles.css">
 
-    <script src="https://kit.fontawesome.com/ed3bc6a571.js" crossorigin="anonymous"></script>
-    <style>
-        body {
-            background-image: linear-gradient(rgb(53, 103, 230), black);
-
-            height: 1000px;
-
-            background-repeat: no-repeat;
-
-            background-size: cover;
-        }
-
-        #divpar {
-            background-color: white;
-
-            height: 500px;
-
-            width: 500px;
-
-            position: relative;
-
-            left: 500px;
-
-            top: 100px;
-
-            border-radius: 5%;
-        }
-
-        #icon {
-
-            position: absolute;
-
-            left: 30px;
-
-            top: 35px;
-        }
-
-        #caasify {
-
-            color: #0474bb;
-
-            position: absolute;
-
-            left: 103px;
-
-            top: 30px;
-
-            font-family: Arial, Helvetica, sans-serif;
-
-            font-size: 23px;
-        }
-
-        #line {
-            border-top: 2px solid gold;
-
-            position: absolute;
-
-            color: rgb(5, 104, 176);
-
-            top: 110px;
-
-            padding: 10px;
-
-            margin: 10px;
-        }
-
-        #links {
-
-            background-color: #e3f2fd;
-
-            position: absolute;
-
-            top: 350px;
-
-            padding: 10px;
-
-            margin: 20px;
-
-            width: 430px;
-
-            height: 80px;
-
-            border-radius: 4%;
-        }
-
-        #mail {
-            position: absolute;
-
-            top: 383px;
-            left: 50px;
-            font-size: 9px;
-
-
-
-        }
-
-        #pin {
-            position: absolute;
-
-            top: 394px;
-
-            left: 27px;
-
-            color: rgb(13, 66, 226);
-
-
-        }
-
-        #pin_address {
-
-            position: absolute;
-
-            top: 411px;
-
-            left: 50px;
-
-            font-size: 9px;
-        }
-
-        #list1 {
-
-            position: absolute;
-
-            top: 350px;
-
-            left: 250px;
-
-            font-size: 10px;
-
-            padding: 15px;
-        }
-
-        #list2 {
-            position: absolute;
-
-            top: 350px;
-
-            left: 340px;
-
-            font-size: 10px;
-
-            padding: 15px;
-        }
-
-        #invision {
-            position: absolute;
-
-            top: 440px;
-
-            left: 30px;
-
-            color: rgb(13, 66, 226);
-
-        }
-
-        #reddit {
-            position: absolute;
-
-            top: 440px;
-
-            left: 49px;
-
-            color: rgb(255, 98, 0);
-
-        }
-
-        #twitter {
-            position: absolute;
-
-            top: 440px;
-
-            left: 69px;
-
-            color: black;
-
-        }
-
-        #unsub{
-            position: absolute;
-
-           top: 45px;
-
-            left: 700px;
-
-            top:620px;
-
-            color: white;
-
-            text-decoration: none;
-
-        }
-    </style>
-
+    <script src="https://kit.fontawesome.com/ed3bc6a571.js" crossorigin="anonymous"></script>  
 </head>
 
 <body>
 
     <div id="divpar">
 
-        <div>
+        <pre>  </pre>
+
+        <div id="iconBox">
             <img src="2.png" id="icon" height="60px" width="70px">
 
             <p id="caasify">Cassify</p>
         </div>
 
+
         <div id="line">
-            <h3 style="color: rgb(4, 38, 111);">New Hosting is coming!</h1>
+            <h3 
+            >New Hosting is coming!</h1>
 
 
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit,
@@ -219,38 +32,50 @@
                 Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
                 Excepteur sint occaecat cupidatat non proident,
                 sunt in culpa qui officia deserunt mollit anim id est laborum.
-        </div>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit,
 
+
+        </div>
 
         <div id="links">
-            <i class='fas fa-envelope-square' style="color: rgb(13, 66, 226);"></i>
 
+            <div>
+                <div>
+                    <i id="mailIcon" class='fas fa-envelope-square'></i>
 
+                    <a href="" id="mail">info@caasify.com</a>
+                </div>
+
+                <div>
+                    <p class='fas fa-link' id="pin"></p>
+
+                    <a href="Https://cassify.com" id="pin_address">Https://cassify.com</a>
+                </div>
+
+                <div>
+                    <a href=""><i class='fab fa-invision' id="invision"></i></a>
+                    <a href=""> <i class="fa fa-reddit" id="reddit"></i></a>
+                    <a href=""><i class="fa-brands fa-square-x-twitter" id="twitter"></i></a>
+                </div>
+            </div>
+
+             <ul id="list1">
+                <li ><a href="">login</a></li>
+                <li ><a href="">Community</a></li>
+                <li ><a href="">Blog</a></li>
+            </ul> 
+
+            <ul id="list2">
+                <li ><a href="">Pricing</a></li>
+                <li ><a href="">About us</a></li>
+                <li ><a href="">Contact us</a></li>
+            </ul> 
 
         </div>
-        <a href="" id="mail">info@caasify.com</a>
-        <p class='fas fa-link' id="pin"></p>
-        <a href="Https://cassify.com" id="pin_address">Https://cassify.com</a>
-
-        <ul id="list1">
-            <li style="padding: 4px;"><a href="">login</a></li>
-            <li style="padding: 4px;"><a href="">Community</a></li>
-            <li style="padding: 4px;"><a href="">Blog</a></li>
-        </ul>
-
-        <ul id="list2">
-            <li style="padding: 4px;"><a href="">Pricing</a></li>
-            <li style="padding: 4px;"><a href="">About us</a></li>
-            <li style="padding: 4px;"><a href="">Contact us</a></li>
-        </ul>
-
-       <a href=""><i class='fab fa-invision' id="invision"></i></a> 
-       <a href=""> <i class="fa fa-reddit" id="reddit"></i></a> 
-       <a href=""><i class="fa-brands fa-square-x-twitter" id="twitter"></i></a> 
 
     </div>
 
-<a href="" id="unsub">Unsubscribe</a>
+    <a href="" id="unsub">Unsubscribe</a>
 
 </body>
 
